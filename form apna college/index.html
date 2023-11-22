@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main_heading">Registration Form</h1><hr>
+    </header>
+    
+        <form action="action.php"></form>
+
+        Enter Your Name : 
+        <input type="text" placeholder="Enter your Name">   
+    <br><br>
+       
+        Enter Your Password : 
+        <input type="password" placeholder="password">
+    <br><br>
+
+        Calendar :
+        <input type="date" name="date">
+    <br><br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male</label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female</label>
+        </fieldset>
+    <br><br>
+
+        Enter Your age : 
+        <input type="number" name="number" min="15" max="22">
+    <br><br>
+
+    <fieldset>
+        <legend>Select Your class : </legend>
+        <label for="1">
+        <input type="radio" value="Class 9" name="class" id="1">Class 9 </label>
+        <label for="2">
+        <input type="radio" value="Class 10" name="class" id="2">Class 10</label>
+        <label for="3">
+        <input type="radio" value="Class 11" name="class" id="3">Class 11</label>
+        <label for="4">
+        <input type="radio" value="Class 12" name="class" id="4">Class 12</label>
+    </fieldset>
+    <br><br>
+    
+    <fieldset>
+        <legend>Select Your subjects : </legend>
+        <input type="checkbox" value="Maths" name="subject" id="" >Maths
+        <input type="checkbox" value="Programming" name="subject" id="">Programming
+        <input type="checkbox" value="Statistics" name="subject" id="">Statistics
+        <input type="checkbox" value="English" name="subject" id="">English
+        <input type="checkbox" value="Phython" name="subject" id="">Phython
+    </fieldset>
+   <br><br>
+
+        Select Your City : <br>
+        <select name="city" id="">
+        <option value="Mardan">Mardan</option>
+        <option value="Peshawar">Peshawar</option>
+        <option value="Sawabi">Sawabi</option>
+        <option value="Swat">Swat</option>
+    </select>
+    <br><br>
+
+        Feedback : <br>
+        <textarea name="feedback" id="" cols="20" rows="5" placeholder="any feedback can be appreciated"></textarea>
+    <br><br>
+
+        <input type="submit" value="Submit">
+
+</div>
+</body>
+</html>

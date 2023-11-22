@@ -1,0 +1,39 @@
+@media (max-width : 600px){
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .side-bar{
+        height:50px;
+        width: 100%;
+        background: linear-gradient(#00545d, #000729);
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .social-links{
+        width: auto;
+        position: unset;
+        transform: none;
+    }
+    
+    .useful-links{
+        width: auto;
+        position: unset;
+        bottom: 30px;
+    }
+
+    .menu{
+        width: 18px;
+        margin: 0;
+    }
+
+}
+
+@media (min-width : 600px) and (max-width : 900px){
+    /* css for tablets or large screens     */
+}

@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #313131;
+}
+
+.header{
+    height: 80px;
+    background-color: black;
+}
+
+.cards{
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box{
+    height: 350px;
+    background-color: black;
+    width: 16%;
+    margin: auto;
+    
+}
+
+#box2{
+    position: absolute;
+    top: 120px;
+    left: 190px;
+    background-color: gray;
+}
+
+
+#box4{
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    background-color: gray;
+}
+
+#box6{
+    position: absolute;
+    background-color: gray;
+    top: 120px;
+    left: 1100px;
+}
+/* 
+#box1:hover{
+    z-index: 1;
+    cursor: pointer;
+}
+
+#box3:hover{
+    z-index: 1;
+    cursor: pointer;
+}
+
+#box5:hover{
+    z-index: 1;
+    cursor: pointer;
+} */

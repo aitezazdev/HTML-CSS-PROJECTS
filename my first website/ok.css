@@ -1,0 +1,90 @@
+.left h2{
+    height: 20svh;
+    width: 70%;
+    font-size: 20px;
+    position: absolute; 
+    top: 0;
+} 
+
+.hero-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+
+}
+
+.left{
+    width: 80%;
+    height: 40svh;
+    border: 2px solid red;
+    position: relative; 
+    margin: 0;
+}
+
+.right{
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    /* overflow: hidden; */
+    }
+
+
+    .right form{
+        width: 75% ;
+    }
+
+    
+    .login{
+        width: 65%;
+        height: 20px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+        border-radius: 5px;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+
+    input[type="email"], input[type="password"]{
+        width: 65%;
+        height: 20px; 
+        border-bottom: 1px solid orange;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+    }
+
+    .right-button{
+        width: 65%;
+        height: 20px;;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        border-radius: 5px;
+        color: gray;
+        letter-spacing: 0.5px;
+    }
+
+    span{
+        width: 65%;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 3px 12px;
+        font-size: 11px; 
+    }
+
+    .p-icons{
+        width: 65%;
+        height: 20px;
+        font-size: 10px;
+    }
+    
+    .icons{
+        width: 65%;
+        height: 25px;
+    }
+
+    .icons a{
+        font-size: 15px;
+    }     

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="action.php">
+    <div class="container">
+        <div class="heading">
+            <h1>Registration Form</h1>
+        </div>
+
+        <div class="name">
+            <p>Name :</p>
+            <div class="name1">
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        </div>
+
+        <div class="password">
+            <p>Password :</p>
+            <div class="password2">
+             <input type="text" placeholder="Enter  Strong Password">
+            </div>
+        </div>
+
+        <div class="select">
+            <p>Select Your City :</p>
+            <div class="select2">
+            <select name="city" id="city">
+            <option value="Select City">Select City</option>
+            <option value="Mardan">Mardan</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Sawabi">Sawabi</option>
+            <option value="Swat">Swat</option>
+        </select>
+    </div>
+        </div>
+       
+        <div class="class">
+        <p>Which  Semester Student Are You :</p>
+        <div class="rad">
+            <label for="11">
+        <input type="radio" name="class" id="11">
+        <span class="radio-circle"></span>1st</label>
+        <label for="22">
+        <input type="radio" name="class" id="22">
+        <span class="radio-circle"></span>2nd</label>
+        <label for="33">
+        <input type="radio" name="class" id="33">
+        <span class="radio-circle"></span>3rd</label>
+        <label for="44">
+        <input type="radio" name="class" id="44">
+        <span class="radio-circle"></span>4rth</label>
+    </div>
+        </div>
+
+        <div class="subjects">
+           <p> Select Your Subjects :</p>
+           <div class="check">
+            <label for="1">
+            <input type="checkbox" name="subject" id="1">
+            <span class="checkbox-circle"></span>Coding</label>
+            <label for="2">
+            <input type="checkbox" name="subject" id="2">
+            <span class="checkbox-circle"></span>Programming</label>
+            <label for="3">
+            <input type="checkbox" name="subject" id="3">
+            <span class="checkbox-circle"></span>Html</label>
+            <label for="4">
+            <input type="checkbox" name="subject" id="4">
+            <span class="checkbox-circle"></span>Biology</label>
+        </div>
+            </div>
+
+            <div class="feedback">
+                <p>Your Feedback :</p>
+                <textarea name="feedback" placeholder="Any feedback" id="" cols="80" rows="10"></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="button" value="Submit" >
+                </div>
+    </div>
+</form>
+</body>
+</html>
