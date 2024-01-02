@@ -22,6 +22,7 @@
 
 .content{
     position: absolute;
+    user-select: none;
 }
 
 .content h1{
