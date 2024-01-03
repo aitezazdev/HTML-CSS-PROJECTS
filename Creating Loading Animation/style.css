@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+}
+
+.box{
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: spark 1s ease-in-out infinite;
+}
+
+.loading_one{
+    animation-delay: 0.1s;
+}
+.loading_two{
+    animation-delay: 0.4s;
+}
+.loading_three{
+    animation-delay: 0.8s;
+}
+
+@keyframes spark {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+}
